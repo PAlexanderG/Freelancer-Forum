@@ -10,10 +10,10 @@ const users = [
 ];
 // grab the "root" element, add an h1 element, give it text of "FREELANCERS", and append the HTML document
 function main() {
-  // grabbed root element
+  // grabbed root element: HTMLElement = create a varible: document. @parameter and specifies the ID value:
   const rootElement = document.getElementById("root");
 
-  // adding h1  element
+  // adding h1  element: HTMLElement = create a varible: document. @parameter and specifies the ID value:
   const h1 = document.createElement("h1");
   h1.innerHTML = "FREELANCERS";
   rootElement.appendChild(h1);

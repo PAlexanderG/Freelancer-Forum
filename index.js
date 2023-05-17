@@ -15,17 +15,21 @@ function main() {
 
   // adding h1  element: HTMLElement = create a varible: document. @parameter and specifies the ID value:
   const h1 = document.createElement("h1");
+  // add a text node inside HTML (h1.innerHTML)
   h1.innerHTML = "FREELANCERS";
   rootElement.appendChild(h1);
 
-  //create an unordered list element. loop through the users array creating li elements, append those elements to your HTML document
+  //create an unordered list element. loop through the users array creating li elements, append those elements to your Dynamic Data HTML document
   const ul = document.createElement("ul");
   rootElement.appendChild(ul);
 
-  //for loop to create li items
+  //for loop to create li items (add the object: users)
   for (let person of users) {
+    // declare the variable using dynamic data html: MTHLElement to var (document) using a method paramenter to "li"
     let li = document.createElement("li");
+    // declare the variable of HTMLElement to the property (innerHTML) = to the object . to the property
     li.innerHTML = person.name;
+    //
     ul.appendChild(li);
   }
   rootElement.appendChild(ul);

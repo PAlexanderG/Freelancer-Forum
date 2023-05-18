@@ -1,3 +1,4 @@
+// Creating an array of users including name, age, and occupation.
 const users = [
   { name: "John", age: 25, occupation: "gardener" },
   { name: "Lenny", age: 51, occupation: "programmer" },
@@ -9,14 +10,17 @@ const users = [
   { name: "Robert", age: 72, occupation: "driver" },
 ];
 // grab the "root" element, add an h1 element, give it text of "FREELANCERS", and append the HTML document
+// Calling the (function main() {
+// })
 function main() {
-  // grabbed root element: HTMLElement = create a varible: document. @parameter and specifies the ID value:
+  // Grabbed root element: HTMLElement = create a varible: document. @parameter and specifies the ID value:
   const rootElement = document.getElementById("root");
 
   // adding h1  element: HTMLElement = create a varible: document. @parameter and specifies the ID value:
   const h1 = document.createElement("h1");
-  // add a text node inside HTML (h1.innerHTML)
+  // add a text ( = "Text here";) node inside HTML (h1.innerHTML)
   h1.innerHTML = "FREELANCERS";
+  // passing the parentElement to the appendChild
   rootElement.appendChild(h1);
 
   //create an unordered list element. loop through the users array creating li elements, append those elements using your Dynamic Data HTML document

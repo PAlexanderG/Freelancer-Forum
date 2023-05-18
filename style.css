@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+div {
+  text-align: center;
+}
+
 body {
   width: 100%;
   min-height: 100vh;
@@ -11,7 +15,6 @@ body {
   background-color: #f1f2f3;
 }
 
-/* live server not working lol */
 ul {
   list-style-type: circle;
   display: inline-flex;
@@ -21,7 +24,11 @@ ul {
 
 h1 {
   font-size: 9rem;
-  color: black;
+  color: rgb(232, 112, 1);
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-shadow: rgb(121, 121, 121) 0 4px 6px;
 }
 
 ul li {

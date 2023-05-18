@@ -19,7 +19,7 @@ function main() {
   h1.innerHTML = "FREELANCERS";
   rootElement.appendChild(h1);
 
-  //create an unordered list element. loop through the users array creating li elements, append those elements to your Dynamic Data HTML document
+  //create an unordered list element. loop through the users array creating li elements, append those elements using your Dynamic Data HTML document
   const ul = document.createElement("ul");
   rootElement.appendChild(ul);
 
@@ -29,9 +29,10 @@ function main() {
     let li = document.createElement("li");
     // declare the variable of HTMLElement to the property (innerHTML) = to the object . to the property
     li.innerHTML = person.name;
-    //
+    // pass the parentElent to the appendChild
     ul.appendChild(li);
   }
+  // pass the rootElent to the appendChild (HTMLul)
   rootElement.appendChild(ul);
 }
 

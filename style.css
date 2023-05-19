@@ -38,3 +38,29 @@ ul li {
   margin-bottom: 8px;
   color: rgb(60, 127, 252);
 }
+.outer,
+.middle,
+.inner1,
+.inner2 {
+  display: block;
+  width: 520px;
+  padding: 15px;
+  margin: 15px;
+  text-decoration: none;
+  text-align: center;
+}
+.outer {
+  border: 4px solid rgb(232, 112, 1);
+  color: rgb(232, 112, 1);
+}
+.middle {
+  border: 3px solid green;
+  color: green;
+  width: 460px;
+}
+.inner1,
+.inner2 {
+  border: 1px solid rgb(60, 127, 252);
+  color: rgb(60, 127, 252);
+  width: 400px;
+}

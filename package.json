@@ -1,0 +1,14 @@
+{
+  "name": "block20_workshop-_freelancer_forum",
+  "version": "1.0.0",
+  "description": "working progress",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Pedro Garcia",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^29.5.0"
+  }
+}
